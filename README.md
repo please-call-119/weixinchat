@@ -20,8 +20,7 @@
 
 <!-- wp:preformatted -->
 <pre id="block-687cf51d-5fa4-4ae8-ae2e-063b6e16f850" class="wp-block-preformatted">pycharm
-anaconda（虽然有些臃肿，但是我们并不是要成为专业开发者，一切以便利和可复用为导向）
-tesseract-ocr-setup-3.05.02-20180621（这是我安装的版本，至于如何添加进环境变量可百度，安装时不要添加多国语言，你会被下载速度弄崩溃的）</pre>
+anaconda（虽然有些臃肿，但是我们并不是要成为专业开发者，一切以便利和可复用为导向</pre>
 <!-- /wp:preformatted -->
 
 <!-- wp:paragraph -->
@@ -30,8 +29,8 @@ tesseract-ocr-setup-3.05.02-20180621（这是我安装的版本，至于如何�
 
 <!-- wp:preformatted -->
 <pre id="block-0d62f4de-9663-411b-88f1-1d5ef42eb1a7" class="wp-block-preformatted">Python3.9.7
-Tushare
-Pandas1.34</pre>
+pywin32-300（最新版本应该是302，但是会出现找不到模块的错误，最好更换成300或者之前的版本）
+pywinauto0.6.8 </pre>
 <!-- /wp:preformatted -->
 
 <!-- wp:paragraph -->
@@ -39,5 +38,7 @@ Pandas1.34</pre>
 <!-- /wp:paragraph -->
 
 <!-- wp:preformatted -->
-<pre id="block-2146a025-5c8e-4c9a-95bd-0c9800bf99d0" class="wp-block-preformatted">pip install tushare -i https://pypi.tuna.tsinghua.edu.cn/simpl</pre>
+<pre id="block-2146a025-5c8e-4c9a-95bd-0c9800bf99d0" class="wp-block-preformatted">conda环境安装：
+pip install --upgrade pywin32==300 -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip install pywinauto -i https://pypi.tuna.tsinghua.edu.cn/simple</pre>
 <!-- /wp:preformatted -->
